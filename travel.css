@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+body.header.h1{
+    color: black;
+}
+header {
+    background-color: #EDF4F2;
+    color:white;
+    padding: 20px;
+    text-align: left;
+}
+nav {
+    text-align: right;
+    margin-top: 20px;
+}
+nav a {
+    color: #333;
+    text-decoration: none;
+    text-align: right;
+    padding: 10px;
+    margin: 0 5px;
+    border-radius: 15%;
+    background-color: #fff;
+    transition: background-color 0.3s ease;
+}
+nav a:hover {
+    background-color: #f5ff2e;
+    color: #06402B;
+}
+.container {
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+.jumbotron {
+    background-image: url('Image/theme.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 200px 200px;
+    margin-bottom: 20px;
+    
+}
+.jumbotron h1 {
+    font-size: 3em;
+}
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.packages {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.package {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.package:hover {
+    transform: translateY(-5px);
+    box-shadow: 10px 20px 40px black;
+}
+.package img {
+    max-width: 100%;
+    border-radius: 30px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact{
+    height: 240px;
+    /* width: 100%; */
+    margin: 0;
+    background-color: #D3D3D3;
+    text-align: center;
+
+}
+
+#contact > h1{
+    color: rgb(47, 3, 59);
+    font-size: xx-large;
+}
+
+
+/* class="jumbotron" */
